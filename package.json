@@ -6,8 +6,7 @@
   "scripts": {
     "test": "mocha --reporter spec --require esm 'test/**/*.mjs'",
     "start": "node server.mjs"
-},
-
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -16,6 +15,7 @@
   },
   "devDependencies": {
     "chai": "^5.1.0",
+    "esm": "^3.2.25",
     "mocha": "^10.4.0",
     "request": "^2.88.2",
     "supertest": "^6.3.3"
