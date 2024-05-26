@@ -4,9 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "mocha --reporter spec",
-    "start": "node server.js"
-  },
+    "test": "mocha --reporter spec --require esm 'test/**/*.mjs'",
+    "start": "node server.mjs"
+},
+
   "keywords": [],
   "author": "",
   "license": "ISC",
